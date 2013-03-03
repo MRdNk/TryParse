@@ -5,8 +5,18 @@ test("if a integer is correctly returned", function (t) {
   t.end()
 })
 
+test("if a integer string is correctly returned", function (t) {
+  t.equal(tryparse.int("4"), 4, "Is Integer string")
+  t.end()
+})
+
 test("if a float is correctly returned", function (t) {
   t.equal(tryparse.float(4.5), 4.5, "Is Float")
+  t.end()
+})
+
+test("if a float string is correctly returned", function (t) {
+  t.equal(tryparse.float("4.5"), 4.5, "Is Float string")
   t.end()
 })
 

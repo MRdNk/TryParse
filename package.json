@@ -1,6 +1,6 @@
 {
   "name": "tryparse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TryParse allows you to test if a value is an integer, a float",
   "main": "index.js",
   "scripts": {
